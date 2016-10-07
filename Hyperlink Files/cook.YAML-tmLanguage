@@ -1,0 +1,99 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: Cook
+scopeName: cook.syntax_name
+fileTypes: [cook]
+uuid: 3bf3df53-40e9-411d-a0b5-869bdccc9f4a
+
+patterns:
+    #- 
+        #comment: Tab stops like $1, $2...
+        #name: keyword.other.ssraw
+        #match: \$
+
+ 
+    -
+        comment: classes
+        name: variable.complex.ssraw
+       
+        begin: '([A-Za-z]+)(\ *)(\{)'
+        beginCaptures:
+           '1': {name: constant.character.escape.ssraw}
+           '3': {name: constant.character.escape.ssraw}
+        end: \}
+        endCaptures:
+          '0': {name: constant.character}
+
+        patterns:
+            -
+              name: string
+              begin: '(<)'
+              end: '(>)'
+
+              patterns:
+                  -
+                    match: ([A-Za-z0-9\-]+)(\:)(\ *)([A-Za-z0-9\-]+)
+                    captures:
+                      '4': {name: comment}
+            -
+              name: storage.type
+              match: ([A-Za-z0-9\-]+)(\:)
+
+            -
+              name: meta
+              match: (\d+)(\.*)(\d+*)((c|tsp|oz|F)*)
+              captures:
+                '4': {name: constant.character}
+            -
+              name: string.regexp.set
+              begin: '(")'
+              end: '(")'
+
+            -
+              name: string
+              begin: '(\()'
+              end: '(\))'
+
+            -           
+              name: keyword
+              match: (bake|heat|mix|stir|place|cool|serve)(\ *)([A-Za-z0-9\-]+*)
+              captures:
+                '3': {name: storage.type}
+            -           
+              name: constant.character
+              match: (on|or|until)(\ *)([A-Za-z0-9\-]+*)
+              captures:
+                '3': {name: storage.type}
+
+
+    - 
+        name: keyword
+        match: (red)
+    -
+        name: constant.character
+        match: (purple)
+    -
+        name: storage.type
+        match: (blue)
+    -
+        name: comment
+        match: (gray)
+    -
+        name: meta
+        match: (white)
+    -
+        name: string
+        match: (yellow)
+    -
+        name: invalid
+        match: (invalid)
+
+
+    -   
+        match: '(a)(b)(c)(d)(e)(f)(g)(h)(i)'
+        captures:
+          '1': {name: keyword}
+          '3': {name: constant.character.character-class.regexp}
+          '4': {name: constant.character.escape.backslash.regexp}
+          '5': {name: punctuation.definition.character-class.regexp}
+          '6': {name: constant.other.character-class.set.regexp}

@@ -1,0 +1,5 @@
+files for sublime text syntax
+
+based on the following tutorials:
+http://docs.sublimetext.info/en/latest/extensibility/syntaxdefs.html
+https://github.com/SublimeText/PackageDev/blob/master/Syntax%20Definitions/Oniguruma%20Regular%20Expression.YAML-tmLanguage
