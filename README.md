@@ -12,9 +12,8 @@
 </ul>
 
 #DOCUMENTATION
-<h2>Info</h2>>
+<h2>Info</h2>
 The first block of COOK code needs to define descriptions for the recipe, this can be it's name (title), description, preperation time or servings.
-<br>
 ![alt tag](pics/info.png)
     
 <h2>Ingredients</h2>
