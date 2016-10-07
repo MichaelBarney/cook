@@ -1,4 +1,4 @@
-![alt tag](pics/cook.png)
+![alt tag](pics/cook-color.png)
 <h2>Cook Object Oriented Kitchen</h2>
 <h3>Worlds best programming language for cooking!</h3>
 
