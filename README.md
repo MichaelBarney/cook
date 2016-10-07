@@ -1,5 +1,5 @@
 # cook
-<h1>World's best programming language for cooking!</h1>
+<h3>World's best programming language for cooking!</h3>
 
 <h4>Cook is a description language for all types of activities related to cooking, it's possibilites include:</h4>
 
