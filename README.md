@@ -1,9 +1,11 @@
 # cook
-World's best programming language for cooking!
+<h1>World's best programming language for cooking!</h1>
 
-Cook is a description language for all types of activities related to cooking, it's possibilites include:
+<h4>Cook is a description language for all types of activities related to cooking, it's possibilites include:</h4>
 
--Creating a Standard for Recipes
--Ofering new standard tools for recipes.
--Connecting multiple devices to fufill a role in a kitchen.
--Ofering commands for cooking robots!
+<ul>
+    <li>Creating a Standard for Recipes</li>
+    <li>Ofering new standard tools for recipes.</li>
+    <li>Connecting multiple devices to fufill a role in a kitchen.</li>
+    <li>Ofering commands for cooking robots!</li>
+</ul>
