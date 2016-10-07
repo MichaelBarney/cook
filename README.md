@@ -20,12 +20,16 @@ The first block of COOK code needs to define descriptions for the recipe, this c
 <h2>Ingredients</h2>
 Every recipe needs ingredients, in COOK we need to define our second block as one to set all of the elements that make the recipe.
 COOK units can be in imperial or metric systems, this is because there will be integrated conversions systems in all of it's compilers.
-You can detail information about the ingredient used. Information like: preperation (prep), brand or extras (ext)
+You can detail information about the ingredient used with information like: preperation (prep), brand or extras (ext)
 <br>
+\n
 ![alt tag](pics/ingredients.png)
+<br>
+<br>
+![alt tag](pics/ingredients-2.png)
 
 # EXAMPLES
 <ul>
     <h3><li>Cookie Recipe</li></h3>
 </ul>
-![alt tag](http://i.imgur.com/fbGqjx7.png)
+![alt tag](pics/cookie.png)
