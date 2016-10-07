@@ -41,9 +41,9 @@ patterns:
 
             -
               name: meta
-              match: (\d+)(\.*)(\d+*)((c|tsp|oz|F)*)
+              match: (\d+)(\.*)(\d+*)(\ *)((c|tsp|tbsp|oz|F)*)
               captures:
-                '4': {name: constant.character}
+                '5': {name: constant.character}
             -
               name: string.regexp.set
               begin: '(")'
@@ -56,12 +56,12 @@ patterns:
 
             -           
               name: keyword
-              match: (bake|heat|mix|stir|place|cool|serve)(\ *)([A-Za-z0-9\-]+*)
+              match: (bake|heat|mix|stir|place|cool|serve|whisk)(\ *)([A-Za-z0-9\-]+*)
               captures:
                 '3': {name: storage.type}
             -           
               name: constant.character
-              match: (on|or|until)(\ *)([A-Za-z0-9\-]+*)
+              match: (on|or|until|and)(\ *)([A-Za-z0-9\-]+*)
               captures:
                 '3': {name: storage.type}
 
@@ -87,13 +87,3 @@ patterns:
     -
         name: invalid
         match: (invalid)
-
-
-    -   
-        match: '(a)(b)(c)(d)(e)(f)(g)(h)(i)'
-        captures:
-          '1': {name: keyword}
-          '3': {name: constant.character.character-class.regexp}
-          '4': {name: constant.character.escape.backslash.regexp}
-          '5': {name: punctuation.definition.character-class.regexp}
-          '6': {name: constant.other.character-class.set.regexp}
