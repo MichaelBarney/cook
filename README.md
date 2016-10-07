@@ -10,4 +10,4 @@
     <li>Ofering commands for cooking robots!</li>
 </ul>
 
-<img src:http://imgur.com/fbGqjx7>
+![alt tag](http://i.imgur.com/fbGqjx7.png)
