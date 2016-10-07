@@ -13,5 +13,5 @@
 # EXAMPLES
 <ul>
     <h3><li>Cookie Recipe</li></h3>
-    ![alt tag](http://i.imgur.com/fbGqjx7.png)
 </ul>
+![alt tag](http://i.imgur.com/fbGqjx7.png)
