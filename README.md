@@ -1,6 +1,6 @@
 ![alt tag](pics/cook-color.png)
 <h1> </h1>
-<h3>Worlds best programming language for cooking!</h3>
+<h3>A programming language for cooking!</h3>
 
 <h4>Cook is a description language for all types of activities related to cooking. Possibilites include:</h4>
 
