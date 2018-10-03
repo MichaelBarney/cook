@@ -42,5 +42,6 @@ The first block of COOK code needs to define descriptions for the recipe, this c
 <ul>
     <h3><li>Cookie Recipe</li></h3>
 </ul>
-![alt text](https://raw.githubusercontent.com/MichaelBarney/cook/master/pics/cookie.png)
+![alt tag](pics/cookie.png)
+
 
