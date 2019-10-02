@@ -1,0 +1,40 @@
+info{
+    title: "Banana BlueBerry Muffns"
+    description: "Amazing Banana Muffins with Blueberries"
+    time: 60
+    servings: 22
+}
+
+ingredients{
+    banana:3 <prep: "smash">
+    granulated-sugar:0.5c
+    brown-sugar:0.5c
+    butter:0.33c <prep: "melt">
+    vanilla:1tsp
+    egg:2
+    flour:2c <ext: "all-purpose">
+    baking-soda: 1tsp
+    baking-powder: 1tsp
+    salt:0.5tsp
+    blueberry:0.5c <prep: "mix with 0.25c flour">
+}
+
+directions{
+    oven:
+        heat until 350F
+    
+    batter:
+        mix (banana, brown-sugar, granulated-sugar, butter, vanilla, egg)
+        stir (flour, baking-soda, baking-powder, salt)
+        fold (blueberry)
+        place <size:0.25c> on muffin-tin <ext: greased>
+
+    
+    muffins:
+        bake batter on oven until (time:25)
+        cool <time:5min>;
+        place on wire-rack
+        cool
+        
+    serve muffins
+}
