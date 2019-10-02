@@ -1,0 +1,35 @@
+info{
+    title: "Pumpkin soup"
+    description: "Easy dinner recipe"
+    time: 45
+    servings: 6
+}
+
+ingredients{
+    olive-oil: 2tbsp
+    onions: 2 <prep: "finely chopped">
+    pumpkin: 1kg <alt: "squash"> <prep: "peeled", "deseeded", "chopped">
+    stock: 700ml
+    double-cream: 150ml
+}
+
+directions{
+    pan:
+        heat oil
+        place onions
+        cook onions for 5min
+        place pumpkin
+        cook (onions, pumpkin) for 10min
+        pour stock
+        add (salt, pepper)
+        mix (onions, pumpkin, stock, salt, pepper)
+        simmer for 10min
+        pour double-cream
+        stir until boiling
+        cool
+        
+    soup:
+        blend
+        
+    serve soup
+}
